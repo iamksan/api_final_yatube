@@ -19,8 +19,8 @@ INSTALLED_APPS = [
     'django_filters',
     'api',
     'posts',
-    'rest_framework.authtoken',
     'djoser',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
