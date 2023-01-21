@@ -21,7 +21,6 @@ INSTALLED_APPS = [
     'posts',
     'djoser',
     'rest_framework.authtoken',
-    'FieldDoesNotExist'
 ]
 
 MIDDLEWARE = [
