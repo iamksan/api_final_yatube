@@ -54,7 +54,9 @@ class Follow(models.Model):
     )
 
     class Meta:
-        models.UniqueConstraint(
-            fields=['user', 'author'],
-            name='following'
+        constraints = (
+            models.UniqueConstraint(
+                fields=('user', 'following'),
+                name='unique_follow'
+            ),
         )
